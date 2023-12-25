@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Admin.css'
 
 export default function Admin() {
@@ -5,6 +6,7 @@ export default function Admin() {
         <>
             <div>
                 <h1>This is Admin page</h1>
+                <Link to="/">Go to Home</Link>
             </div>
             <div className="form">
                 <p>ID</p>
@@ -27,6 +29,7 @@ export default function Admin() {
                 <button type="button">Create</button>
                 <button type="button">Update</button>
                 <button type="button">Delete</button>
+                <p>------------------</p>
             </div>
             <div className="displayBooks">
                 <table>

@@ -1,7 +1,10 @@
+import Navbar from "../Components/Navbar";
+
 export default function Cart() {
     return (
         <>
             <h1>This is Cart</h1>
+            <Navbar />
             <div>
                 <table>
                     <tr>
