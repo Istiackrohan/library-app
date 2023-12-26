@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 
 export default function Register () {
+    // function register () {
+
+    // }
+
     return <>
         <div className="">
             <h1>Create an Account</h1>

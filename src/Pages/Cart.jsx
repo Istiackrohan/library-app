@@ -1,6 +1,11 @@
 import Navbar from "../Components/Navbar";
 
 export default function Cart() {
+    // function Borrow() {
+
+    // }
+
+    
     return (
         <>
             <h1>This is Cart</h1>
@@ -22,9 +27,12 @@ export default function Cart() {
                         <td>HSC</td>
                         <td>Shahjahan Tapan</td>
                         <td>HQ7 3</td>
-                        <td><button>Add To Cart</button></td>
                     </tr>
                 </table>
+                <p>If you want to borrow books, then you have to provide returning date.</p>
+                <p>Returning Date: </p>
+                <input type="date" name="" id="" />
+                <button>Borrow</button>
             </div>
         </>
     )
